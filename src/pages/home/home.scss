@@ -1,0 +1,52 @@
+.home-page {
+	& .section-1 {
+		& .card {
+			max-width: 960px;
+			display: flex;
+			justify-content: center;
+			margin-left: auto;
+			margin-right: auto;
+
+			& .card-header {
+				display: flex;
+				flex-direction: column;
+				gap: 32px;
+				width: 100%;
+                text-align: center;
+
+				& h1 {
+					margin: 0;
+				}
+
+				& .replace-url {
+					display: flex;
+					flex-direction: row;
+					gap: 12px;
+
+					& .url-input {
+						display: flex;
+						flex-grow: 1;
+
+						& input {
+							width: 100%;
+							line-height: 1;
+							padding: 8px 12px;
+							font-size: 18px;
+							border-radius: 4px;
+							border: 1px solid #ced4da;
+						}
+					}
+
+					& .button-input {
+						& .btn {
+							font-weight: 600;
+							padding: 8px 12px;
+						}
+					}
+				}
+			}
+			& .card-body {
+			}
+		}
+	}
+}
