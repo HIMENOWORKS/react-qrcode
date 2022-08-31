@@ -13,7 +13,23 @@
 
 		& .navbar {
 			height: 52px;
-			background: salmon;
+			background: #1472e6;
+            padding: 0 14px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            & a:-webkit-any-link {
+                cursor: pointer;
+                text-decoration: none;
+            }
+
+            & .navbar-brand {
+                color: #ffffff;
+                font-size: 28px;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
 		}
 	}
 
@@ -21,8 +37,8 @@
 		margin-top: 52px;
 
 		& .main-layout {
-			width: 100vw;
-			height: 100vh;
+			width: 100%;
+			height: 100%;
 		}
 	}
 }

@@ -5,7 +5,9 @@ import "../layout.scss";
 const Navbar: React.FC = () => {
 	return (
 		<div className="navbar">
-			<Link to={""}>My QRCode</Link>
+			<Link to={""} className="navbar-brand">
+				My QRCode
+			</Link>
 		</div>
 	);
 };
