@@ -10,7 +10,8 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
-input, button {
+input,
+button {
 	font-family: var(--base-font);
 }
 
@@ -31,6 +32,16 @@ input, button {
 	padding: 6px 12px;
 	font-size: 16px;
 	border-radius: 4px;
+}
+
+.btn-success {
+	color: #fff;
+	background-color: #28a745;
+
+	&:hover,
+	&:focus {
+		background-color: #218838;
+	}
 }
 
 .btn-primary {

@@ -1,5 +1,6 @@
 import React from "react";
 import "./home.scss";
+import QR from "../../@assets/images/qrcode.jpeg";
 
 const HomePage: React.FC = () => {
 	return (
@@ -18,7 +19,15 @@ const HomePage: React.FC = () => {
 								</div>
 							</div>
 						</div>
-						<div className="card-body"></div>
+						<div className="card-body">
+                            <h1>Your QR Code</h1>
+							<div className="qr-preview">
+								<img src={QR} alt="" />
+							</div>
+                            <div>
+                                <button className="btn btn-success">Dowload</button>
+                            </div>
+						</div>
 					</div>
 				</div>
 			</div>
